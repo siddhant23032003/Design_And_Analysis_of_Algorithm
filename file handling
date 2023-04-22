@@ -68,4 +68,5 @@ int search(FILE *fp, int id_key)
     while(fread(&s,sizeof(s),1,fp))
         if( s.id == id_key) return 1;
     return 0;
+    
 }
